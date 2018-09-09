@@ -14,6 +14,8 @@
 		C0C35125214505E20097AD4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C35123214505E20097AD4C /* LaunchScreen.storyboard */; };
 		C0C35130214505E20097AD4C /* SearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3512F214505E20097AD4C /* SearchBarTests.swift */; };
 		C0C3513B214505E20097AD4C /* SearchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3513A214505E20097AD4C /* SearchBarUITests.swift */; };
+		C0C35149214508F10097AD4C /* TableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C35148214508F10097AD4C /* TableExtension.swift */; };
+		C0C3514B214519A10097AD4C /* MainSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3514A214519A10097AD4C /* MainSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C0C35136214505E20097AD4C /* SearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C3513A214505E20097AD4C /* SearchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarUITests.swift; sourceTree = "<group>"; };
 		C0C3513C214505E20097AD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0C35148214508F10097AD4C /* TableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExtension.swift; sourceTree = "<group>"; };
+		C0C3514A214519A10097AD4C /* MainSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C0C3511A214505E10097AD4C /* AppDelegate.swift */,
 				C0C3511C214505E10097AD4C /* ViewController.swift */,
+				C0C3514A214519A10097AD4C /* MainSearchBar.swift */,
+				C0C35148214508F10097AD4C /* TableExtension.swift */,
 				C0C3511E214505E10097AD4C /* Main.storyboard */,
 				C0C35121214505E20097AD4C /* Assets.xcassets */,
 				C0C35123214505E20097AD4C /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0C3511D214505E10097AD4C /* ViewController.swift in Sources */,
+				C0C35149214508F10097AD4C /* TableExtension.swift in Sources */,
+				C0C3514B214519A10097AD4C /* MainSearchBar.swift in Sources */,
 				C0C3511B214505E10097AD4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
